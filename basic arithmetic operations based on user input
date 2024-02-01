@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    int choice;
+    int a,b;
+    printf("Enter your choice:\n");
+    printf("1.ADDITION\n2.SUBTRACTION\n3.MULTIPLICATION\n4.DIVISION\n your opertion:");
+    scanf("%d",&choice);
+    printf("\n ENTER a & b integer number:");
+    scanf("%d%d",&a,&b);
+    if(choice==1)
+    {
+        printf("ADDITION:%d",a+b);
+    }
+   else if(choice==2)
+    {
+        printf("SUBTRACTION:%d",a-b);
+    }
+   else if(choice==3)
+    {
+        printf("MULTIPLICATION:%d",a*b);
+    }
+  else if(choice==4)
+    {
+        printf("DIVISION:%d",a/b);
+    }
+
+    return 0;
+}
